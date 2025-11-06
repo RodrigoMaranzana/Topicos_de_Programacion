@@ -36,8 +36,9 @@ Se solicita que lea los jugadores provenientes del archivo de texto "jugadores.t
 ```
 
 Tenga en cuenta que en este formato:
-	- El formato se basa en Clave-Valor.
-	- Los caracteres en blanco y de control no son tenidos en cuenta.
+- El formato se basa en Clave-Valor.
+- Los caracteres en blanco y de control no son tenidos en cuenta.
 
 2)
-Cargue todos los jugadores en un TDA Vector a un archivo binario ordenado por alguna clave de su preferencia (puede ser una clave simple o compuesta).
+Cargue todos los jugadores en un TDA Vector y luego grabelos en un archivo binario.
+Los jugadores deben quedar ordenados por alguna clave de su preferencia (puede ser una clave simple o compuesta).
