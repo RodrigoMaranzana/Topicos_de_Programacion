@@ -1,0 +1,17 @@
+*.o
+*.obj
+*.a
+*.lib
+*.exe
+*.txt
+
+bin/
+obj/
+Debug/
+Release/
+.obsidian/
+
+#Code::Blocks
+*.depend
+*.layout
+
