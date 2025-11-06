@@ -17,7 +17,7 @@ int main()
 
     arch = fopen(NOMBRE_ARCH, "rt");
     if (!arch) {
-        perror("Error al generar el lote de pruebas.");
+        perror("Error al abrir el archivo");
         return ERR_ARCHIVO;
     }
 
