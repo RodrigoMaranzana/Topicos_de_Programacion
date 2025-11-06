@@ -166,7 +166,7 @@ char* _secuencia_obtener_palabra_heap(tSecuencia *sec)
         ++sec->cursor;
     }
 
-    longitud = sec->cursor - inicioPal
+    longitud = sec->cursor - inicioPal;
 
     if (longitud == 0) {
         return NULL;
